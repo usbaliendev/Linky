@@ -3,7 +3,7 @@ import { MaterialIcons } from '@expo/vector-icons'
 import { colors } from '@/styles/colors'
 import { styles } from './styles'
 
-type CategoryProps =PressableProps & {
+type CategoryProps=PressableProps & {
   name: string
   icon: keyof typeof MaterialIcons.glyphMap
   isSelected: boolean
